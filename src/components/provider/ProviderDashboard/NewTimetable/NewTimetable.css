@@ -1,0 +1,44 @@
+#v-pills-new-timetable .details-info-content .details-value.business-info {
+  display: flex;
+  flex-direction: row;
+}
+
+#v-pills-new-timetable .details-info-content .details-value.business-info input {
+  max-width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#v-pills-new-timetable .details-info-content .details-value.business-info select {
+  min-width: 100px;
+  max-width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 8px;
+}
+
+#v-pills-new-timetable .details-info-content .details-value.business-info select:first-of-type {
+  margin-left: 0
+}
+
+#v-pills-new-timetable .details-info-content .details-type {
+  flex: 1
+}
+
+#v-pills-new-timetable .details-info-content .details-value {
+  flex: 4
+}
+
+#v-pills-new-timetable .details-info-content > div.add-img {
+  flex: 0
+}
+
+#v-pills-new-timetable .details-info-content .details-value > div.add-img {
+  margin-left: 15px;
+}
+
+.saving-update {
+  color: #00818f;
+  font-weight: 500;
+  font-size: 1.5rem;
+}

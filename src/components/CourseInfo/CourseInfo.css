@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(176, 217, 217, 0.35);
+  overflow-x: hidden;
+}
+
+#container {
+  margin-top: 32px;
+}
+
+/*info card start*/
+
+.card-body .coursen-r {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-body .coursen-r .rating{
+  align-self: center;
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+.card-body .nurseryn-r #by{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.card-body .nurseryn-r #nursery-name{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card-body .content li{
+  list-style: decimal;
+  font-size: var(--font-20);
+  padding-bottom:0.5rem ;
+}
+
+.card-body .tools li{
+  list-style: disc;
+  font-size: var(--font-20);
+  padding-bottom:0.5rem ;
+}
+
+@media (max-width: 1199px){
+  .card-body .opinions .customer-card .customer-rate{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/*info card end*/ 

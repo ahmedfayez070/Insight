@@ -1,0 +1,68 @@
+.search-courses .container .search-bar-courses .search-bar-item.item-search {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: var(--font-14);
+  align-items: center;
+  border: none;
+  color: #000;
+}
+
+.courses .card {
+  padding: 0px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: 16rem;
+}
+
+@media (min-width: 1200px) {
+  .courses .card {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .courses .card {
+    width: 16rem;
+  }
+}
+
+.container .courses {
+  gap: 50px;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .courses .card {
+    width: 14rem;
+  }
+
+  .container .courses {
+    gap: 22px;
+  }
+}
+
+.courses .card:hover{
+  border: 1px solid black;
+}
+
+.courses .card img{
+  padding-bottom: 0;
+  min-height: 12rem;
+}
+
+.courses .card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses .card .card-text{
+  font-size: var(--font-32);
+  font-weight: 500;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}

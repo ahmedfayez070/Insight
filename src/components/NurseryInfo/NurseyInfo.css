@@ -1,0 +1,677 @@
+.all-nursery-info ul {
+  padding-left: 20px;
+}
+
+.all-course-info ul {
+  padding-left: 20px;
+}
+
+.nursery-info-content{
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+/*info card start*/
+
+.info-card{
+  height: fit-content;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.info-card .carousel-inner{
+  background-color: #c4c4c4;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 25.875rem;
+  border-bottom: 1px solid rgba(176, 217, 217, 0.9999999);
+  border-bottom: 1px solid #ededed;
+}
+
+.info-card .carousel-control-prev,
+.info-card .carousel-control-next{
+  opacity: 1;
+}
+
+.info-card .react{
+  position: absolute;
+  top: 1rem;
+  right: 5%;
+}
+
+.info-card .card-body{
+  padding: 1rem;
+}
+
+.info-card .card-body h5{
+  font-size: var(--font-40);
+  font-weight: bold;
+}
+
+.card-body{
+  position: relative;
+}
+
+.card-body .nurseryn-r{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-body .nurseryn-r .rating{
+  align-self: center;
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+.card-body .number-of-rates{
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+.card-body h6{
+  font-size: var(--font-32);
+  font-weight: 500;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.courses-activites .icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses-activites li {
+  border: solid 3px #f2a88d;
+  font-size: 17px;
+  text-align: left;
+  padding: 8px 24px;
+  margin:0 0 8px 0; 
+}
+
+.courses-activites .icons span {
+  border: solid 3px #f2a88d;
+  font-size: 1rem;
+  text-align: left;
+  padding: 8px 15px;
+  margin: 0 8px 8px 0;
+  border-radius: 15px;
+  font-weight: 500;
+  color: #000;
+}
+
+.courses-activites a {
+  color: #000;
+}
+
+.courses-activites li a {
+  font-weight: 500;
+}
+
+.courses-activites .left li {
+  border-radius: 240px 38px 400px 240px;
+}
+
+.courses-activites .center li {
+  border-radius: 240px 38px;
+}
+
+.courses-activites .right li {
+  border-radius: 400px 240px 240px 38px
+}
+
+.card-body .rating-reviews{
+  display: flex;
+  flex-direction: row;
+}
+
+.container.customer-rating-reviews{
+  padding: 0;
+}
+
+.card-body .rates-side{
+  padding-right: 0;
+  margin: 0;
+}
+
+.container.customer-rating-reviews .rates{
+  position: relative;
+}
+
+.container.customer-rating-reviews .rates .rates-num{
+  font-weight: 500;
+  position: absolute;
+  right: 0;
+  margin-top: 0.25rem;
+}
+
+.container.customer-rating-reviews .customer-reviews-side{
+  padding-left: 0;
+  margin: 0;
+}
+
+.card-body .rating-reviews .reviews{
+  padding-top: 1rem;
+  align-self: flex-start;
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+.card-body .opinions ul li{
+  background-color: #d3e1e1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+}
+
+.card-body .opinions .customer-card {
+  display: flex;
+}
+
+.card-body .opinions .customer-card .customer-img{
+  font-size: var(--font-20);
+}
+
+.card-body .opinions .verified-review{
+  font-size: 1em;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.card-body .opinions .customer-card .customer-rate{
+  display: flex;
+  margin: 0 0rem 0 auto;
+}
+
+.card-body .opinions img{
+  width: var(--font-32);
+  height: var(--font-32);
+}
+
+.card-body .community .community-icons{
+  display: flex;
+}
+
+.card-body .community .community-icons li{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 3rem;
+}
+
+/*info card end*/ 
+
+/*reservasion details start*/
+
+.details-card {
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.details-card .head {
+  background-color: var(--footer-color);
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.details-card p {
+  font-size: var(--font-20);
+}
+
+.details-card .head p {
+  font-size: 1.75rem;
+  padding: 0.25rem;
+}
+
+.details-card .details {
+  padding-right: 1rem;
+  padding-left: .5rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.details-card .details img {
+  width: var(--font-size-lg);
+  height: var(--font-size-lg);
+  margin-right: 0.5rem;
+}
+
+
+.details-card .details li {
+  font-size: var(--font-20);
+  padding-bottom: 0.875rem;
+  font-weight: 500;
+}
+
+.details-card span {
+  color: var(--nav-color);
+}
+
+.details-card .time li {
+  list-style-type: disc;
+}
+
+.details-card span .t-d {
+  color: #000;
+  font-weight: 500;
+}
+
+.membership {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.details-card .details .membership .type {
+  padding: var(--font-14);
+  background-color: #d3e1e1;
+  border-radius: 16px;
+}
+
+.details-card .details .membership .type span {
+  color: #000;
+  text-align: center;
+}
+
+.details-card .details .type .price {
+  font-size: 2.5rem;
+  padding-left: 1.25rem;
+}
+
+.details-card .details .cost {
+  position: relative;
+}
+
+.details-card .details .LE {
+  position: absolute;
+  top: 0;
+}
+
+
+.details-card button {
+  background-color: var(--footer-color);
+  font-size: var(--font-20);
+  border-radius: 240px 38px;
+  padding: .5rem 3rem;
+  margin: 10px auto 10px;
+  display: block;
+  width: 90%;
+}
+
+
+.details-card select,
+.details-card input {
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0 #cbdafc;
+  border: solid 2px #c4c4c4;
+  background-color: #fff;
+}
+
+.reservation-details .details-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.details-card #add {
+  margin: 8px;
+}
+
+.reservation-details input {
+  width: 60%;
+  margin-left: 0.5rem;
+}
+
+.details-card input:last-of-type {
+  margin-top: 0.75rem;
+  margin-left: 0;
+}
+
+.reservation-details li {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 1399px) {
+  .details-card .details .membership .type {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .details-card .details .membership .type:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .details-card button {
+    font-size: var(--font-18);
+    display: block;
+    padding: .35rem 1.5rem;
+  }
+
+}
+
+@media (min-width:1023) {
+  .details-card .details .membership .type {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1439px) {
+  .membership {
+    flex-wrap: nowrap;
+  }
+
+  .details-card .details .membership .type:last-of-type {
+    margin-left: 1rem;
+  }
+}
+
+.details-card .selecting-child {
+  display: inline-block;
+  width: 80%;
+  padding: 0 10px;
+}
+
+.details-card .details img.selecting-child-img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.details-card .details-description-plan {
+  justify-content: space-between;
+}
+
+.details-card .plan-chosen {
+  /* align-self: flex-end; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-20);
+}
+
+.details-card .selecting-child-plan {
+  min-width: 130px;
+  min-height: 50px;
+  width: auto;
+}
+
+.details-card .plan-chosen .plan-money {
+  min-width: 110px;
+  min-height: 50px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.details-card .plan-chosen .plan-currency {
+  display: flex;
+  border: solid 2px #c4c4c4;
+  color: #c4c4c4;
+  background-color: var(--footer-color);
+  padding: 0 12px;
+  min-height: 50px;
+  align-items: center;
+}
+
+/*reservation details end*/
+
+/*reservasion details start*/
+
+.reservasion-details {
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.reservasion-details .head {
+  background-color: var(--footer-color);
+  color: #fff;
+  text-align: center;
+  border-top-left-radius:16px;
+  border-top-right-radius: 16px;
+}
+
+.reservasion-details p{
+  font-size: var(--font-20);
+}
+
+.reservasion-details .head p{
+  font-size: 1.75rem;
+  padding: 0.25rem;
+}
+
+.reservasion-details .details{
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.reservasion-details .details img {
+  width: var(--font-size-lg);
+  height: var(--font-size-lg);
+  margin-right: 0.5rem;
+}
+
+.reservasion-details .details .description-details{
+  margin-left: 2.5rem;
+}
+
+.reservasion-details .details li{
+  font-size: var(--font-20);
+  padding-bottom: 0.875rem;
+  font-weight: 500;
+}
+
+.reservasion-details .time {
+  padding-left: 2rem;
+}
+
+.reservasion-details .time li{
+  list-style-type: disc;
+}
+
+.reservasion-details span{
+  color: var(--nav-color);
+}
+
+.reservasion-details span .t-d{
+  color: #000;
+  font-weight: 500;
+}
+
+.membership{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reservasion-details .details .membership .type{
+  padding: var(--font-14);
+  background-color: #d3e1e1;
+  border-radius: 16px;
+}
+
+.reservasion-details .details .membership .type span{
+  color: #000;
+  text-align: center;
+}
+
+.reservasion-details .details  .type .price{
+  font-size: 2.5rem;
+  padding-left: 1.25rem;
+}
+
+.reservasion-details .details .cost{
+  position: relative;
+}
+
+.reservasion-details .details .LE{
+    position: absolute;
+    top: 0;
+}
+
+.reservasion-details button{
+  border: none;
+  background-color: var(--footer-color);
+  font-size: var(--font-20);
+  border-radius: 240px 38px;
+  padding: .5rem 3rem;
+  margin: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+/* Media */
+
+@media (max-width: 991px){
+  .card-body .opinions .customer-card .customer-rate{
+    display: flex;
+    margin-left: -1.5rem;
+  }
+}
+
+@media (min-width:992px) {
+  .reservasion-details .details .membership .type{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .courses-activites .icons ul {
+    padding-left: 8px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+  .card-body .opinions .customer-card {
+    display: block;
+  }
+}
+
+@media (min-width:1200px) {
+  .info-card .card-body .icons ul li a {
+    font-size: var(--font-20);
+  }
+}
+
+@media (max-width: 1399px){
+  .reservasion-details .details .membership .type{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .reservasion-details .details .membership .type:last-of-type{
+    margin-bottom: 0;
+  }
+
+  .reservasion-details button {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    padding: .25rem 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1400px){
+  .membership{
+    flex-wrap: nowrap;
+  }
+
+  .reservasion-details .details .membership .type:last-of-type{
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .info-card .card-body h5{
+    font-size: var(--font-32);
+  }
+
+  .info-card .card-body h6{
+    font-size: var(--font-24);
+  }
+
+  .info-card .card-body .icons {
+    padding: 0;
+  }
+
+  .info-card .card-body .icons ul {
+    padding-left: 5px;
+  }
+
+  .info-card .card-body .icons ul li {
+    padding: 4px 15px;
+  }
+
+  .info-card .card-body .icons ul li a {
+    font-size: 1rem;
+  }
+
+  .info-card .card-body .rating-reviews {
+    margin-top: 20px;
+  }
+
+  .reservasion-details .details li,
+  .reservasion-details .details p {
+    font-size: var(--font-18);
+  }
+
+  .reservasion-details .details .membership {
+    justify-content: space-between;
+  }
+
+  .reservasion-details .details .membership .type {
+    margin-bottom: 0px;
+  }
+
+  .reservasion-details .details .type {
+    max-width: 48%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .info-card .card-body .icons ul {
+    padding-left: 15px;
+  }
+
+  .info-card .card-body .icons ul li {
+    padding: 8px 24px;
+  }
+
+  .info-card .card-body .icons ul li a {
+    font-size: var(--font-20);
+  }
+
+  .info-card .card-body .container.customer-rating-reviews li .customer-card {
+    justify-content: space-between;
+  }
+
+  .reservasion-details .details li,
+  .reservasion-details .details p {
+    font-size: var(--font-20);
+  }
+
+  .reservasion-details .details button.reserve-now {
+    font-size: var(--font-20);
+  }
+}
+
+.carousel-item {
+  height: 100%;
+  background-color: #fff;
+}

@@ -1,0 +1,111 @@
+.profile-container .profile-header .dropdown-menu {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  color: var(--footer-color);
+  color: #00818f;
+  position: absolute;
+  top: 10px !important;
+  min-width: 250px;
+  /* border: 1px solid #fff; */
+}
+
+.profile-container .profile-header .dropdown-menu>div {
+  display: flex;
+  padding: 5px;
+  transition: all .3s;
+}
+
+.profile-container .profile-header .dropdown-menu>div:hover {
+  padding-left: 10px;
+}
+
+.profile-container .profile-header .dropdown-menu>div a,
+.profile-container .profile-header .dropdown-menu>div span {
+  display: inline-block;
+  width: 100%;
+}
+
+.profile-container .profile-header .dropdown-menu>div span:first-of-type {
+  flex: 1
+}
+
+.profile-container .profile-header .dropdown-menu>div span:last-of-type {
+  flex: 4
+}
+
+/* .profile-container .profile-header .dropdown-menu > div:first-of-type {
+  border-bottom: 1px solid #e6e6e6
+}  */
+
+.profile-container .profile-header .dropdown-toggle {
+  background: none;
+  border: none;
+}
+
+.profile-container .profile-header .dropdown-toggle::after {
+  display: none;
+}
+
+.profile-container .profile-header .dropdown-toggle:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.profile-container .profile-header .dropdown-toggle img {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.profile-container .profile-header .drop-down-menu a {
+  color: var(--footer-color);
+  color: #00818f;
+}
+
+/* notification dropdown */
+
+.dropdown-menu.notify-down-menu {
+  max-width: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.dropdown-menu.notify-down-menu > div {
+  border-bottom: 1px solid #ccc;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000
+}
+
+.dropdown-menu.notify-down-menu>div:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown-menu.notify-down-menu > div.no-notifications {
+  border-bottom: none;
+}
+
+.dropdown-menu.notify-down-menu > div div:first-of-type {
+  /* width: 110px; */
+  height: 100%;
+  margin-right: 15px;
+}
+
+.dropdown-menu.notify-down-menu > div div:first-of-type img {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-menu.notify-down-menu > div div {
+  color: #000
+}
+
+.notifications {
+  min-width: 350px !important;
+  max-height: 600px;
+  overflow: auto;
+}

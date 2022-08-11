@@ -1,0 +1,7 @@
+.client-register-select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #4fb1bf;
+  border-radius: 16px;
+}

@@ -1,0 +1,216 @@
+@media (min-width: 576px) and (max-width: 991px) {
+  button {
+    line-height: 1.2;
+  }
+  .landing .child-image {
+    top: 40%;
+    right: 14%;
+    width: 35%;
+    height: 40%;
+  }
+
+  .landing .written-section {
+    top: 20%;
+    left: 13%;
+    max-width: 24%;
+  }
+
+  .landing .written-section h1 {
+    font-size: var(--font-24);
+    line-height: 40px;
+  } 
+
+  .landing .written-section p {
+    font-size: var(--font-14);
+    line-height: var(--line-height-p);
+    margin-bottom: 10px;
+  }
+
+  .landing .written-section .browse-nurseries {
+    border: solid 3px #fff;
+    padding: 0 12px 3px 8px; /**/
+    margin: 0px 0px;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    line-height: 1.2;
+  }
+
+  .landing .written-section .browse-nurseries a {
+    font-size: calc(var(--font-14) - 1px);
+    display: inline-block;
+    width: 100%;
+  }
+
+  .how-it-works .top {
+    width: 100%;
+  }
+
+  .how-it-works .top h2 {
+    font-size: var(--font-14);
+  }
+
+  .how-it-works .top h3 {
+    font-size: var(--font-32);
+  }
+
+  .how-it-works .top p {
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: var(--line-height-p);
+  }
+
+  .how-it-works .cards {
+    max-width: 170px;
+    margin-bottom: 30px;
+  }
+
+  .how-it-works .cards h3 {
+    font-weight: 500;
+    font-size: var(--font-24);
+  }
+
+  .how-it-works .cards p {
+    font-size: 1rem;
+  }
+
+  .how-it-works .cards img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .suggested-searches .container {
+    padding: 0;
+  }
+
+  .suggested-searches .container > h3 {
+    font-size: var(--font-14);
+    margin-left: 0;
+  }
+
+  .suggested-searches .icons {
+    padding-left: 3px;
+  }
+
+  .suggested-searches .icons > div {
+    margin-left: 3px;
+    margin-right: 0;
+  }
+
+  .suggested-searches li {
+    font-size: calc(var(--font-14) - 2px);
+    padding: 5px 12px;
+    margin:0 0 8px 0; 
+  }
+
+  .suggested-searches .discription {
+    max-width: 150px;
+    margin-left: 5px;
+    line-height: var(--line-height-p);
+    padding: 0;
+  }
+
+  .suggested-searches .discription h3 {
+    font-size: var(--font-24);
+  }
+
+  .suggested-searches .discription p {
+    font-size: calc(var(--font-14) - 2px);
+  }
+
+  .browse-activities .discription {
+    line-height: var(--line-height-p);
+    max-width: 250px ;
+  }
+
+  .browse-activities .discription h2 {
+    font-size: var(--font-32);
+    margin-top: 0;
+    font-weight: 500;
+  }
+
+  .browse-activities .discription p {
+    font-size: 1rem;
+  }
+
+  .browse-activities .discription button a {
+    font-size: var(--font-14);
+  }
+
+  .what-they-say {
+    line-height: 1.3;
+  }
+
+  .what-they-say .directions {
+    margin-bottom: 10px;
+  }
+
+  .what-they-say .directions .right {
+    margin-left: 50px;
+  }
+
+  .what-they-say .personal-card {
+    max-width: 250px;
+    padding: 20px 8px 20px;
+  }
+
+  .what-they-say img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .what-they-say .personal-card p {
+    margin-bottom: 0;
+  }
+
+  .what-they-say .personal-card h4 {
+    font-size: var(--font-20);
+  }
+
+  .what-they-say .text {
+    max-width: 250px;
+    margin-left: 0;
+  }
+
+  .what-they-say .text h5 {
+    font-size: var(--font-24);
+    margin-bottom: 10px;
+  }
+
+  .what-they-say .text p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .how-it-works .cards {
+    max-width: 200px;
+    margin: 0 20px 35px
+  }
+
+  .suggested-searches .icons > div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .suggested-searches li {
+    font-size: var(--font-14);
+    margin-bottom: 15px;
+  }
+
+  .suggested-searches .discription {
+    max-width: 170px;
+    margin-left: 5px;
+    line-height: var(--line-height-p);
+    padding: 0;
+  }
+
+  .suggested-searches .discription h3 {
+    font-size: calc(var(--font-24) + 4px);
+    margin-bottom: 10px;
+  }
+
+  .suggested-searches .discription p {
+    font-size: var(--font-14);
+  }
+}

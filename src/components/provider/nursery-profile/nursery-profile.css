@@ -1,0 +1,438 @@
+.label-class.nursery-profile {
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #005462;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+}
+
+.label-class.nursery-profile {
+  margin-left: 1rem;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.profile-container .profile-content {
+  width: 83.33%;
+}
+
+.tabs-content {
+  border-radius: 16px;
+}
+
+.tabs-content .tab-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-content .tab-content-header p {
+  font-weight: 500;
+  font-size: var(--font-24);
+  padding: 0;
+  margin: 0;
+}
+
+.tab-content-header img {
+  cursor: pointer;
+}
+
+.details-info {
+  border-bottom: #e6e6e6 2px solid;
+  font-size: var(--font-20);
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+.details-info .details-type {
+  font-weight: 500;
+}
+
+.details-info .details-value {
+  font-weight: normal;
+}
+
+.details-info img {
+  border-radius: 8px;
+}
+
+.details-info img.before-update {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.details-info h5 {
+  font-weight: bold;
+}
+
+.details-info:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.child-info {
+  border-radius: 16px;
+  padding: 24px 24px;
+  background-color: #fff;
+  width: 95%;
+  margin-top: 1rem;
+  margin-bottom: .7rem;
+}
+
+.child-info .tab-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child-info .tab-content-header p {
+  font-weight: 500;
+  font-size: var(--font-24);
+  padding: 0;
+  margin: 0;
+}
+
+.details-info .details-info-content .details-value.status span {
+  width: fit-content;
+  padding: 4px 16px;
+  margin-left: 0;
+  border-radius: 8px;
+  background-color: #00ff00;
+}
+
+.tabs-content .update-actions span {
+  color: #00818f;
+  font-weight: 500;
+  font-size: var(--font-24);
+  transition: 0.2s;
+}
+
+.tabs-content .update-actions span:hover {
+  color: #005462;
+}
+
+.details-info .details-info-content .details-type,
+.details-info .details-info-content .details-value {
+  flex: 1
+}
+
+.details-info .details-info-content .update-to {
+  color: #c4c4c4;
+}
+
+/*update nursery profile*/
+.update-nursery .details-info img {
+  padding: 40px;
+  border-radius: 8px;
+  border: dashed 2px #00818f;
+  background-color: #fff;
+}
+
+.update-nursery .request-change {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00818f;
+  cursor: pointer;
+}
+
+.update-nursery .details-info-content input {
+  width: 100%;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 2px #c4c4c4;
+}
+
+.update-nursery .details-info-content .details input {
+  margin-bottom: 1rem;
+}
+
+.update-nursery .details-info-content .phone-num,
+.update-nursery .details-info-content .type-value {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.update-nursery .details-info-content .phone-num select,
+.update-nursery .details-info-content .type-value select {
+  margin: 0 1rem 0rem 0;
+}
+
+.update-nursery .details-info-content .age-values {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.update-nursery .details-info-content .age-values input:first-of-type {
+  margin-right: 16px;
+}
+
+.update-nursery select {
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0 #cbdafc;
+  border: solid 2px #c4c4c4;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.update-nursery .add-img img {
+  border: none;
+  padding: 0;
+}
+
+.update-nursery .details-info-content .details-value.business-info {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+
+.update-nursery .details-info-content .business-info input {
+  margin-left: 10px;
+  padding: 3px 8px;
+}
+
+.update-nursery .details-info-content .business-info select {
+  margin: 0;
+  padding: 3px 8px;
+}
+
+/* update child profile */
+
+.child-info .update-actions span {
+  color: #00818f;
+  font-weight: 500;
+  font-size: var(--font-24);
+  transition: 0.2s;
+}
+
+.child-info .update-actions span:hover {
+  color: #005462;
+}
+
+.details-info .details-info-content {
+  display: flex;
+  position: relative;
+}
+
+/* Media */
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .tabs-content {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+
+  .details-info {
+    margin: 1rem;
+  }
+
+  .details-info:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .update-nursery .details-info .details input {
+    margin: 0 0 1rem -9rem;
+    width: 130%;
+  }
+
+  .update-nursery .courses-activities-list {
+    margin-left: -9rem;
+  }
+
+  .details-info .details-info-content .business-info select {
+    max-width: 9rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+  .tabs-container {
+    max-width: 830px;
+  }
+
+  .child-info {
+    width: 100%;
+  }
+
+  .details-info {
+    margin: 1rem;
+  }
+
+  .details-info:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .details-info .details-info-content .business-info select {
+    max-width: 9rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .details-info:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .child-info {
+    margin: 24px auto;
+  }
+
+  .details-info .details-info-content .business-info select {
+    min-width: 100px;
+    max-width: 200px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .tabs-container {
+    max-width: 1520px;
+  }
+
+  .details-info {
+    margin: 0.5rem;
+  }
+
+  .details-info .details-info-content {
+    margin-bottom: 1rem;
+  }
+
+  .profile-container .profile-header img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .tabs-container .tabs-content {
+    margin-top: 1rem;
+    padding: 15px 15px;
+  }
+
+  .tabs-container .tabs-content .tab-content-header p {
+    font-size: 1.5rem;
+  }
+
+  .details-info p {
+    margin-bottom: 0.5rem;
+  }
+
+  .details-info p:last-of-type {
+    margin-bottom: 0rem;
+  }
+
+  .tabs-container .child-info {
+    margin-top: 1rem;
+    padding: 15px 15px;
+  }
+
+  .tabs-container .child-info .tab-content-header p {
+    font-size: 1.5rem;
+  }
+
+  .details-info .details-info-content {
+    margin-bottom: 0.75rem;
+  }
+
+  .profile-container .profile-content .profile-nav-menu p {
+    margin-bottom: 0;
+  }
+
+  .child-info {
+    margin-top: 1rem;
+    padding: 15px 15px;
+  }
+
+  .child-info .tab-content-header p {
+    font-size: 1.5rem;
+  }
+
+  .tabs-container .tabs-content .tab-content-header p {
+    font-size: 1.5rem;
+  }
+
+  .details-info .phone-num {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-bottom: 1rem;
+  }
+
+  .details-info .details-info-content .business-info select {
+    max-width: 13rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .details-info .details-info-content .business-info select {
+    max-width: 12.4rem;
+  }
+}
+
+@media (min-width:1920px) {
+  .profile-container .profile-header {
+    height: 10.14vh;
+  }
+
+  .profile-container .profile-header .header-content img {
+    width: 3rem;
+    height: 2.5rem;
+  }
+
+  .details-info {
+    margin: 1.5rem;
+  }
+
+  .details-info input {
+    margin: 0.5rem .5rem 1rem 0;
+  }
+
+  .details-info .details-info-content {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .slide-menu .gear-profile {
+    background-color: var(--footer-color);
+    color: #fff;
+    padding-left: 10px
+  }
+}
+
+/**/
+
+.details-info .details-info-content .details-value span.nursery-course {
+  padding: 8px;
+  border: 1px solid var(--footer-color);
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.details-info .buisness-pharse {
+  margin: 0 auto 1rem;
+  text-align: center;
+  color: var(--footer-color)
+}

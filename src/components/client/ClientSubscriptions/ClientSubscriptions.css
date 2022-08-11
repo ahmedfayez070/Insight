@@ -1,0 +1,12 @@
+td.dataTables_empty {
+  display: none;
+}
+
+tr td button {
+  color: var(--footer-color);
+  border-radius: 10px;
+  border: 1px solid var(--footer-color);
+  padding: 6px 12px;
+  font-size: var(--font-18);
+  cursor: pointer;
+}

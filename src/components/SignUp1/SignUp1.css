@@ -1,0 +1,353 @@
+.signup-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+/*signup image start*/
+
+.signup-container .signup-image {
+  width: 50%;
+  background-color: var(--footer-color);
+}
+
+.signup-container .signup-image img{
+  width: 100%;
+  height: 60%;
+  padding: 0;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.signup-container .signup-image .description-text {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.signup-container .signup-image .description-text p {
+  text-align: center;
+}
+
+.signup-container .signup-image .description-text p:first-of-type {
+  font-size: var(--font-24);
+  font-weight: 500;
+  color: #fff;
+}
+
+.signup-container .signup-image .description-text p:last-of-type {
+  font-size: var(--font-size-sm);
+  color: #e6e6e6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*signup image end*/
+
+/*signup form start*/
+
+.signup-container #create {
+  font-weight: bold;
+}
+
+.signup-container .signup-ways {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.signup-container .signup-form {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+}
+
+.signup-container #logo {
+  color: #000;
+  font-size: var(--font-24);
+  display: block;
+  text-align: center;
+  margin-top: 1.4rem;
+  margin:1.4rem auto 0;
+}
+
+/*submit buttons*/
+
+.signup-container .submit-buttons {
+  display: block;
+  text-align: center;
+}
+
+.signup-container .submit-buttons .btn-content {
+  display: flex;
+  justify-content: center;
+  margin: 0.6rem;
+  width: 21.56rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.signup-container .submit-buttons .btn-content div {
+  margin: 0;
+}
+
+.signup-container .submit-buttons .btn-content img {
+  padding: 0.4rem;
+}
+
+.signup-container .submit-buttons .btn-content p {
+  margin: 0;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.signup-container .submit-buttons .btn-content:first-of-type,
+.signup-container .submit-buttons .btn-content:last-of-type {
+  box-shadow:  0 2px 3px 0 rgba(0, 0, 0, 0.17), 0 0 3px 0 rgba(0, 0, 0, 0.08); 
+}
+
+.signup-container .submit-buttons .btn-content:nth-of-type(2) {
+  background-color: #1877f2;
+}
+
+.signup-container .submit-buttons .btn-content:nth-of-type(2) p {
+  color: #fff;
+}
+
+.signup-container .submit-buttons .btn-content:first-of-type p a,
+.signup-container .submit-buttons .btn-content:last-of-type p a {
+  color: #000;
+}
+
+.signup-container .divider {
+  position: relative;
+  margin-top: 0;
+}
+
+.signup-container .divider p {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: #c4c4c4;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+.signup-container .divider p::before,
+.signup-container .divider p::after {
+  content: '';
+  position: absolute;
+  bottom: 50%;
+  width: 3rem;
+  height: 0.125rem;
+  background-color: #c4c4c4;
+}
+
+.signup-container .divider p::before {
+  margin-left: -4rem;
+}
+
+.signup-container .divider p::after {
+  margin-left: 1rem;
+}
+
+.signup-container .form{
+  display: block;
+  text-align: center;
+}
+
+.signup-container .form div h6 {
+  text-align: left;
+  margin-bottom: 0.4rem;
+  margin-top: 0.9rem;
+  font-size: var(--font-size-sm);
+}
+
+#password-label {
+  position: relative;
+}
+
+.signup-container .form div span {
+  color: #c4c4c4;
+}
+
+.signup-container .form div .show {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+}
+
+.signup-container .form div span img {
+  width: var(--font-20);
+  height: var(--font-20);
+}
+
+.signup-container .form div input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #4fb1bf ;
+  border-radius: 16px;
+}
+
+.signup-container .action {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.signup-container .action.phone-verification {
+  display: block;
+  position: static;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.signup-container .action .phone-verify {
+  color: #005462;
+  position: static;
+}
+
+.signup-container .action div {
+  font-weight: normal;
+}
+
+.signup-container .action a {
+  color: #005462;
+  position: absolute;
+  right: 0;
+}
+
+.signup-container .submit {
+  width: 100%;
+  background-color: var(--footer-color);
+  color: #fff;
+  margin-top: 1rem;
+  border-radius: 16px;
+}
+
+.signup-container .submit p{
+font-size: 1.2rem;
+font-weight: 500;
+padding: 0.7rem;
+margin-bottom:0.7rem;
+}
+
+.signup-container .otherwise {
+  display: flex; 
+  justify-content: center;
+  text-align: center;  
+  font-weight: normal; 
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.signup-container .otherwise div:last-of-type {
+  margin-left: 10px;
+}
+
+.signup-container .otherwise a {
+  color: var(--footer-color);
+  padding: 0.25rem;
+}
+
+.signup-container button.submit-button {
+  background: var(--footer-color);
+  gap: 0;
+  font-size: var(--font-24);
+  font-weight: 500;
+  padding: 5px 0;
+  border-radius: 10px;
+  border: 1px solid var(--footer-color);
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  transition: all .3s;
+}
+
+.signup-container button.submit-button:hover {
+  background: #fff;
+  color: var(--footer-color);
+}
+
+#welcome {
+  margin: 0;
+  text-align: left;
+}
+
+/*login form end*/
+
+/* Media */
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .signup-container .otherwise {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+  #create {
+    font-size: 2.5rem;
+  }
+
+  .signup-container .signup-image {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  #welcome {
+    margin: 0;
+  }
+
+  #create {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1400px){
+  .signup-container #logo {
+    margin-top: 3rem;
+  }
+
+  .signup-container .login-image img{
+    width: 80%;
+    height: 60%;
+    margin-top: 5vh;
+  }
+
+  #welcome{
+    margin: 0rem;
+  }
+
+  #login-to{
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin: 0;
+  }
+
+  #text{
+    font-size: 16px;
+  }
+
+  .signup-container {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1200px){
+  #create{
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,180 @@
+.acceptance-text {
+  background-color: #fff;
+  font-size: var(--font-32);
+  border-radius: 16px;
+  font-weight: 500;
+  margin: 4rem 0 2rem 0;
+  padding: 5px 20px;
+}
+
+.acceptance-text span {
+  color: #00818f;
+}
+
+.details-card {
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.details-card .head {
+  background-color: var(--footer-color);
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.details-card p {
+  font-size: var(--font-20);
+}
+
+.details-card .head p {
+  font-size: 1.75rem;
+  padding: 0.25rem;
+}
+
+.details-card .details {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.details-card .details img {
+  width: var(--font-size-lg);
+  height: var(--font-size-lg);
+  margin-right: 0.5rem;
+}
+
+.details-card .details p.details-description {
+  margin-left: 3.5rem;
+}
+
+.details-card .details span.details-description {
+  margin-left: 2rem;
+}
+
+.details-card .details li {
+  font-size: var(--font-18);
+  padding-bottom: 0.875rem;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .details-card .details li {
+    font-size: var(--font-20);
+  }
+}
+
+.details-card span {
+  color: var(--nav-color);
+}
+
+.details #map-link {
+  display: inline-block;
+  color: #00818f;
+  margin-left: 3.5rem;
+  margin-bottom: 0.875rem;
+  font-weight: 500;
+}
+
+.details .nav-buttons {
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-20);
+  padding-left: 0;
+  flex-wrap: nowrap;
+}
+
+.details .nav-buttons button {
+  border: none;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.details .nav-buttons button:first-of-type {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+.details .nav-buttons button:last-of-type {
+  padding-right: 5px;
+  padding-left: 1.5rem;
+}
+
+.details .nav-buttons .active {
+  box-shadow: 0 2px 0 0 #00818f;
+  border: none;
+}
+
+.details .nav-buttons .active::after {
+  border: 4px solid #000;
+}
+
+
+.details .nav-button:hover {
+  border: none;
+}
+
+.tabs-content .tab-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .nav-buttons button::after {
+  border: 4px solid #696969;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.tabs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0;
+  margin-top: 1rem;
+  justify-content: center; /* For discussion */
+  gap: 5px;
+}
+
+@media (max-width: 991px) {
+  .tabs-list {
+    justify-content: flex-start;
+    gap: 0;
+  }
+}
+
+.tabs-list li {
+  gap: 10px;
+  padding: 8px;
+  margin: 0.5rem;
+  border-radius: 8px;
+  border: solid 2px #00818f;
+}
+
+.details-card #pay-button {
+  font-size: var(--font-24);
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--footer-color);
+  border-radius: 240px 38px;
+  padding: .5rem 3rem;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 1199px) {
+  .details-card #pay-button {
+    /* font-size: 16px; */ /* For discussion */
+    display: block;
+    /* padding: .35rem 1.5rem; */ /* For discussion */
+  }
+}

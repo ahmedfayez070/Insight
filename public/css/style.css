@@ -1,0 +1,41 @@
+.page-item.active .page-link{
+    z-index:3;color:#fff;
+    background-color:#00818f;
+}
+
+.page-link{
+    color:#000;
+}
+
+tbody, td, tfoot, th, thead, tr{
+    border: 6px #e6e6e6 solid;
+    border-width: 0;
+}
+
+table.dataTable{
+    border-collapse: collapse;
+}
+
+.action-buttons button{
+    margin: 0.5rem;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+.action-buttons .reject{
+    border: solid 2px #00818f;
+    background-color: #fff;  
+    color: #00818f;
+}
+
+.action-buttons .accept{
+    background-color: #00818f;
+    color: #fff;
+    border: none;
+}
+.table-header{
+    font-weight: normal;
+    font-size: 1.25rem; 
+}

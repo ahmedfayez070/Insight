@@ -1,0 +1,9 @@
+.details-info .details-info-content.adding-child {
+  justify-content: center;
+}
+
+.details-info .details-info-content button.add-child {
+  border-radius: 8px;
+  background-color: var(--footer-color);
+  color: #fff;
+}

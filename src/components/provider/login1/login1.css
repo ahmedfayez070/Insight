@@ -1,0 +1,352 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/*login image start*/
+
+.login-container .login-image {
+  width: 50%;
+  background-color: var(--footer-color);
+}
+
+.login-container .login-image img {
+  width: 100%;
+  height: 60%;
+  padding: 0;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.login-container .login-image .description-text {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.login-container .login-image .description-text p {
+  text-align: center;
+}
+
+.login-container .login-image .description-text p:first-of-type {
+  font-size: var(--font-24);
+  font-weight: 500;
+  color: #fff;
+}
+
+.login-container .login-image .description-text p:last-of-type {
+  font-size: var(--font-size-sm);
+  color: #e6e6e6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*login image end*/
+
+/*login form start*/
+
+.login-container .login-ways {
+  display: block;
+  margin: 0 auto;
+}
+
+.login-container .login-form {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-container #logo {
+  color: #000;
+  font-size: var(--font-24);
+  display: block;
+  text-align: center;
+  margin-top: 1.4rem;
+}
+
+.login-ways #welcome {
+  font-size: var(--font-14);
+  text-align: left;
+  margin: 0;
+}
+
+.login-ways #login-to {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.login-ways #text {
+  font-weight: normal;
+  font-size: var(--font-size-sm);
+  margin: 0;
+  text-align: left;
+}
+
+/*submit buttons*/
+
+.login-container .submit-buttons {
+  display: block;
+  text-align: center;
+}
+
+.login-container .submit-buttons .btn-content {
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem;
+  width: 21.56rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-container .submit-buttons .btn-content div {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .submit-buttons .btn-content img {
+  padding: 0.5rem;
+}
+
+.login-container .submit-buttons .btn-content p {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.login-container .submit-buttons .btn-content:first-of-type,
+.login-container .submit-buttons .btn-content:last-of-type {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.17), 0 0 3px 0 rgba(0, 0, 0, 0.08);
+}
+/*
+.login-container .submit-buttons .btn-content:nth-of-type(2) {
+  background-color: #1877f2;
+}
+
+.login-container .submit-buttons .btn-content:nth-of-type(2) p {
+  color: #fff;
+}
+*/
+.login-container .submit-buttons .btn-content:nth-of-type(1) p a,
+.login-container .submit-buttons .btn-content:nth-of-type(3) p a {
+  color: #000;
+}
+
+.login-container .submit-buttons .btn-content:nth-of-type(1) p a {
+  display: inline-block;
+  width: 100%;
+}
+
+.login-container .divider {
+  position: relative;
+  margin-top: 0;
+}
+
+.login-container .divider p {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: #c4c4c4;
+  display: block;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.login-container .divider p::before,
+.login-container .divider p::after {
+  content: '';
+  position: absolute;
+  bottom: 50%;
+  width: 3rem;
+  height: 0.125rem;
+  background-color: #c4c4c4;
+}
+
+.login-container .divider p::before {
+  margin-left: -4rem;
+}
+
+.login-container .divider p::after {
+  margin-left: 1rem;
+}
+
+.login-container .form {
+  display: block;
+  text-align: center;
+}
+
+.login-container .form div h6 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: var(--font-size-sm);
+}
+
+#password-label {
+  position: relative;
+}
+
+.login-container .form div span {
+  color: #c4c4c4;
+}
+
+.login-container .form div .show {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+}
+
+.login-container .form div span img {
+  width: var(--font-20);
+  height: var(--font-20);
+}
+
+.login-container .form div input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #4fb1bf;
+  border-radius: 16px;
+}
+
+.login-container .action {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.login-container .action div {
+  font-weight: normal;
+}
+
+.login-container .action div:last-of-type a {
+  color: #005462;
+}
+
+.login-container .action .remember-me input {
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+.login-container .submit {
+  width: 100%;
+  background-color: var(--footer-color);
+  color: #fff;
+  margin-top: 1rem;
+  border-radius: 16px;
+}
+
+.login-container .submit p {
+  font-size: var(--font-20);
+  font-weight: 500;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.login-container button.submit-button {
+  background-color: var(--footer-color);
+  gap: 0;
+  font-size: var(--font-24);
+  font-weight: 500;
+  padding: 5px 0;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid var(--footer-color);
+  transition: all .3s;
+}
+
+.login-container button.submit-button:hover {
+  background-color: #fff;
+  color: var(--footer-color);
+}
+
+.login-container .otherwise {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.login-container .otherwise a {
+  color: var(--footer-color);
+  padding: 0.25rem;
+}
+
+/*login form end*/
+
+/* Media */
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .login-container .otherwise {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+  .login-ways #login-to {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+  .login-container .login-image {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .login-ways #welcome {
+    margin: 0;
+  }
+
+  .login-ways #login-to {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .login-container #logo {
+    margin-top: 3rem;
+  }
+
+  .login-ways #welcome {
+    margin: 0rem;
+  }
+
+  .login-ways #login-to {
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin: 0;
+  }
+
+  .login-ways #text {
+    font-size: 16px;
+  }
+
+  .login-container {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #create {
+    font-size: 38px;
+  }
+}
